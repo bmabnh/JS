@@ -1,2 +1,2 @@
 # JS
-Estudando JS, HTML, CSS, Python
+💻Estudando JS, HTML, CSS, Python💻
