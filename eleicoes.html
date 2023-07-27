@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleicao</title>
+    
+</head>
+<body>
+    <script>
+        document.write("===== Eleicões Municipais =====<br>");
+
+        var nome = prompt("Digite seu Nome: ");
+        var titulo = prompt("Digite o Numero do seu titulo eleitoral: ");
+        var votoPrefeito = prompt("Digite o numero do candidato a prefeito escolhido (1 - Ze das Couves, 2 - Ana Maria Praga):");
+        var votoVereador = prompt("Digite o numero do candidato a vereador escolhido (10 - Zeca coitadinho, 20 - Faustina Silva):");
+
+        var candidatoPrefeito = "";
+        var candidatoVereador = "";
+
+        if (votoPrefeito === "1") {
+            candidatoPrefeito = "Zé das couves";
+        }else if (votoPrefeito === "2") {
+            candidatoPrefeito = "Ana Maria Praga";
+        }else {
+            candidatoPrefeito = ("Voto em Branco <br>");
+        }
+        
+        if (votoVereador === "10") {
+            candidatoVereador = "Zeca Coitadinho";
+        }else if(votoVereador === "20") {
+            candidatoVereador = "Faustina silva";
+        }else { 
+            candidatoVereador = ("Voto em Branco <br>");
+        }
+
+        document.write(`Candidato a prefeito escolhido: ${candidatoPrefeito} <br>`)
+        document.write(`Candidato a Vereador Escolhido: ${candidatoVereador} <br>`)
+
+        document.write("Resultado Para Prefeito: ");
+        
+        if (votoPrefeito === "1") {
+            document.write("Ele Será um Prefeito Maravilhoso <br>")
+        }else if (votoPrefeito === "2") {
+            document.write("Ele Será um Péssimo Prefeito <br>");
+        }else {
+            document.write("Você Não Sabe Votar <br>");
+        }
+
+        document.write("Resultado para Vereador: ");
+
+        if (votoVereador === "10") {
+            document.write("Ele será Um Vereador Maravilhoso <br>");
+        }else if (votoVereador === "20") {
+            document.write("Ele será um Péssimo Vereador <br>");
+        }else {
+            document.write("Você Não Sabe Votar <br>");
+        }
+
+
+
+    </script>
+</body>
+</html> 

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula 7</title>
+
+	<!--LINK PARA ADICIONAR FAVICON-->
+	<link rel="shortcut icon" href="img/logoicon.ico">
+
+	<!--LINK PARA CSS EXTERNO-->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<!--LINK PARA BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+		defer></script>
+
+	<!--USO DE CSS INTERNO-->
+	<style>
+	</style>
+
+</head>
+
+<body>
+
+	<header class="container">
+
+		<nav class="navbar  navbar-expand-lg">
+			<div class="container">
+			  <a class="navbar-brand" href="#">
+				<img src="img/logopng_salao.png" alt="Salão" height="100">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link "  href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Sobre</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="unidades.html">Unidades</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link"  href="cadastro.html">Cadastro</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+					  aria-expanded="false">
+					  Produtos
+					</a>
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="#">Kit de tratamento</a></li>
+					  <li><a class="dropdown-item" href="#">Touca</a></li>
+					</ul>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+					  aria-expanded="false">
+					  Serviços
+					</a>
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="#">Escovas</a></li>
+					  <li><a class="dropdown-item" href="#">Cronograma</a></li>
+					  <li><a class="dropdown-item" href="#">Cortes</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</header>
+
+	<article class="container">
+
+
+		<table class="table table-striped">
+			<tr>
+				<th>Nome da Unidade</th>
+				<th>Bairro</th>
+				<th>Endereço</th>
+				<th>Telefone</th>
+				<th>Mapa</th>
+			</tr>
+			<tr>
+				<td>Salão 1</td>
+				<td>Jacarepagua</td>
+				<td>Rua das Flores, 126, 2º andar</td>
+				<td>(21) 98888-7777</td>
+				<td>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117572.69351032823!2d-43.44583859925071!3d-22.944824830883096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd83d20218edf%3A0x186956215a4948b4!2sJacarepagu%C3%A1%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1674781409835!5m2!1spt-BR!2sbr"
+						width="70" height="70" style="border:0; padding:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</td>
+			</tr>
+			<tr>
+				<td>Salão 2</td>
+				<td>Penha</td>
+				<td>Rua Orquídea, 37</td>
+				<td>(21) 97777-8888</td>
+				<td>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58833.709388581505!2d-43.34369793636859!3d-22.835536519474168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b968e57ebbd%3A0x53f645ee6c5893d9!2sPenha%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1674781579400!5m2!1spt-BR!2sbr"
+						width="70" height="70" style="border:0; padding:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</td>
+			</tr>
+		</table>
+
+	</article>
+	<footer class="container mt-md-5">
+		<div class="row">
+			<div class="col">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117572.69351032823!2d-43.44583859925071!3d-22.944824830883096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd83d20218edf%3A0x186956215a4948b4!2sJacarepagu%C3%A1%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1674781409835!5m2!1spt-BR!2sbr"
+					width="200" height="150" style="border:0; padding:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="col">
+				<a href="https://www.instragram.com.br"><img src="img/instragram.png"></a>
+				<p></p>
+				<a href="https://www.facebook.com.br"><img src="img/facebook.png"></a>
+			</div>
+			<div class="col">
+			</div>
+		</div>
+		<div class="row" id="copy">
+			<h3 class="copy">COPY RIGHT</h3>
+		</div>
+	</footer>
+</body>
+
+</html>

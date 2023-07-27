@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão de Beleza | Home</title>
+    <!--LINK PARA CSS EXTERNO-->
+	<link rel="stylesheet" type="text/css" href="estilo6.css">
+    <!-- Link para usar o bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+</head>
+<body>
+   <header class="container">    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logopng_salao.png" alt="Bootstrap" height="100">
+          </a>
+          <div class="ms-5">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEliasDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarEliasDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="unidades.html">Unidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Produtos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kits de tratamento</a></li>
+                  <li><a class="dropdown-item" href="#">Toucas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="escova.html">Escova</a></li>
+                  <li><a class="dropdown-item" href="cronograma.html">Cronograma</a></li>
+                  <li><a class="dropdown-item" href="#">Cortes</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <article>
+      <div class="container mt-2">
+        <div class="row">
+
+
+          <div class="col-6 col-xl-3 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img/belleclubbelroxo.jpg" class="card-img-top" alt="..." width="300" height="300">
+          <div class="card-body">
+            <h1 class="card-text">Unidade Belford Roxo</h1>
+            <h5>Av. José Mariano Passos, 1734 - Centro, Belford Roxo - RJ, 26130-570</h5>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-6 col-xl-3 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img/belleclubmesquita.png" class="card-img-top" alt="..." width="300" height="300">
+          <div class="card-body">
+            <h1 class="card-text">Unidade Mesquita</h1>
+            <h5>Estr. Feliciano Sodré, 2325 - Juscelino, Mesquita - RJ, 26553-000</h5>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-6 col-xl-3 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img/belleclubni.jpg" class="card-img-top" alt="..." width="300" height="300">
+          <div class="card-body">
+            <h1 class="card-text">Unidade Nova Iguaçu</h1>
+            <h5>R. Cel. Bernardino de Melo, 1932 - Centro, Nova Iguaçu - RJ, 26255-140</h5>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <table class="table table-bordered mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Nome da Unidade</th>
+            <th scope="col">Bairro</th>
+            <th scope="col">Endereço</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Mapa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Salão 1</th>
+            <td>Belford Roxo</td>
+            <td>Av. José Mariano Passos, 1734 - Centro, Belford Roxo - RJ, 26130-570</td>
+            <td>(21) 99999-9999</td>
+            <td> 
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919.783434831758!2d-43.40395573885136!3d-22.760417533829987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9965cd8cfa9b5b%3A0xc439528aaaecde73!2sDroga%20Raia!5e0!3m2!1spt-BR!2sbr!4v1688127144802!5m2!1spt-BR!2sbr" width="70" height="70" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Salão 2</th>
+            <td>Mesquita</td>
+            <td>Estr. Feliciano Sodré, 2325 - Juscelino, Mesquita - RJ, 26553-000</td>
+            <td>(21) 99999-9999</td>
+            <td>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.6052279990636!2d-43.435383817969466!3d-22.78002728007532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9966ebd9fe2539%3A0x73ab2a2b4172d102!2sEstr.%20Feliciano%20Sodr%C3%A9%2C%202325%20-%20Juscelino%2C%20Mesquita%20-%20RJ%2C%2026553-000!5e0!3m2!1spt-BR!2sbr!4v1688127561847!5m2!1spt-BR!2sbr" width="70" height="70" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Salão 3</th>
+            <td>Nova Iguaçu</td>
+            <td>R. Cel. Bernardino de Melo, 1932 - Centro, Nova Iguaçu - RJ, 26255-140</td>
+            <td>(21) 99999-9999</td>
+            <td>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.109766020877!2d-43.45376441797327!3d-22.761307379444307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996701406adaa9%3A0x8b98c0cbc6449691!2sR.%20Cel.%20Bernardino%20de%20Melo%2C%201932%20-%20Centro%2C%20Nova%20Igua%C3%A7u%20-%20RJ%2C%2026255-140!5e0!3m2!1spt-BR!2sbr!4v1688127645634!5m2!1spt-BR!2sbr" width="70" height="70" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <footer class="container bg-dark mt-2">
+      <div class="row">
+      <div class="col">
+        <p class="text-light">
+          R Apolo, 353
+          Rocha Sobrinho, Mesquita 
+        </p>
+      </div>
+      <div class="col">
+        <p class="text-light">
+          Telefone: (21) 20189041 </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.273087438983!2d-41.8897774244876!3d-22.755244532472954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9655725574512f%3A0x7222281441c2efd8!2sR.%20das%20Pedras%2C%20B%C3%BAzios%20-%20RJ%2C%2028950-000!5e0!3m2!1spt-BR!2sbr!4v1687531864764!5m2!1spt-BR!2sbr" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+      </div>
+      <div class="col">
+        <p class="text-light">
+          De segunda a Sábado dás 08:00h às 22:00h </p>
+          </div>
+        </p>
+        
+        <div class="col-12 col-md-4 ">
+          <a href="https://www.instagram.com/eupolar"  target="_blank"><img src="img/instragram.png" alt="instagram" width="50" height="50" class="me-2" ></a>
+          <a href="https://pt-br.facebook.com/brianmoura" target="_blank"><img src="img/facebook.png" alt="facebook" width="50" height="50"></a>
+          <a href="https://web.whatsapp.com/" target="_blank"><img src="img/wpplogopng.png" alt="whatsapp" width="50" height="50"></a> 
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="copy">
+        <h3 class="copy">Copy Right</h3>
+      </div>
+    </div>
+
+    </footer>
+    
+</body>
+</html>
